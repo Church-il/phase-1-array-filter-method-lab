@@ -14,12 +14,12 @@ console.log(fuzzyMatch(drivers, "S"));
 
 
 const driverObjects = [
-  { name: "Bobby", hometown: "Pittsburgh" },
-  { name: "Sammy", hometown: "New York" },
-  { name: "Sally", hometown: "Cleveland" },
-  { name: "Annette", hometown: "Los Angeles" },
-  { name: "Sarah", hometown: "San Francisco" },
-  { name: "Bobby", hometown: "Tampa Bay" }
+  { name: "Bobby", hometown: "Kisumu" },
+  { name: "Sammy", hometown: "Naivasha" },
+  { name: "Sally", hometown: "Kakamega" },
+  { name: "Annette", hometown: "Eldoret" },
+  { name: "Sarah", hometown: "Nairobi" },
+  { name: "Bobby", hometown: "Mombasa" }
 ];
 function matchName(drivers, name) {
   return drivers.filter(driver => driver.name === name);
